@@ -2,15 +2,17 @@ import { Link } from 'gatsby';
 import React from 'react';
 import Button from './Button';
 
+import "./styles/styles.scss"
+
 function Header() {
   return (
     <header>
       <h3>clarenceWilliams</h3>
-        {/* <div>
+        <div className="links">
           <Link to="/">Home</Link>
-          <Link to="bio">Bio</Link>
-          <Link to="projects">Projects</Link>
-        </div> */}
+          <Link to="/">Bio</Link>
+          <Link to="/">Projects</Link>
+        </div>
       <Button />
     </header>
   )
