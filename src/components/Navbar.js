@@ -1,6 +1,8 @@
 export default function Navbar() {
 
     return(
-        <p>Navbar Here</p>
+        <div className="navbar">
+            <p>Clarence Williams the Cool</p>
+        </div>
     )
 }

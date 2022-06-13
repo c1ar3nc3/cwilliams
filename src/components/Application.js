@@ -4,18 +4,35 @@ import Bio from "./Bio";
 import Projects from "./Projects";
 import Contact from "./Contact";
 import Links from "./Links";
+import Footer from "./Footer";
+import './application.css'
 
 
 export default function Application() {
 
     return (
-        <div>
-        <Navbar/>
-        <Landing/>
-        <Bio/>
-        <Projects/>
-        <Contact/>
-        <Links/>
-        </div>
+        <>
+            {/* <header>
+                <Navbar/>
+            </header> */}
+            <div className="container">
+                <div className="landing">
+                    <Landing/>
+                </div>
+                <div className="showcase">
+                    <Bio/>
+                </div>
+                <div className="projects">
+                    <Projects/>
+                </div>
+                <div className="contact">
+                    <Contact/>
+                    <Links/>
+                </div>
+            </div>
+            {/* <footer>
+                <Footer />
+            </footer> */}
+        </>
     );
 }
