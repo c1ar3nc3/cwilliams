@@ -1,0 +1,20 @@
+.navbar {
+    height: 0vh;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.nav {
+    font-size: large;
+    justify-content: end;
+    padding-right: 10px;
+}
+
+.nav a {
+    padding: 2px;
+    float: right;
+    clear: right;
+}

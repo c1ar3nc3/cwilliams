@@ -1,6 +1,10 @@
+import './projects.css'
+
 export default function Projects() {
 
     return(
-        <p>Projects Here</p>
+        <div className="projects">
+            <p>Projects Here</p>
+        </div>
     )
 }

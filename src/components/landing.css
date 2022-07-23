@@ -1,5 +1,25 @@
-/* .landing {
-    width: 100%;
-    display: flex;
-    padding: 10px;
-} */
+.english {
+    display: none;
+}
+
+h1:hover .carrier {
+    display: none;
+}
+
+h1:hover .english {
+    display: inline;
+}
+
+.slide-container h1 {
+    display: block;
+    width: max-content;
+    margin: 0;
+}
+
+.slide-container {
+    display: grid;
+    align-content: space-between;
+    justify-items: center;
+    height: 90vh;
+    padding-bottom: 20px;
+}

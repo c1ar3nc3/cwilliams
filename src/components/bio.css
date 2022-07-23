@@ -1,0 +1,6 @@
+.bio {
+    display: grid;
+    
+    height: 100vh;
+    padding-top: 15px;
+}

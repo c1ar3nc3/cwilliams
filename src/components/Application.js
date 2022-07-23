@@ -4,7 +4,7 @@ import Bio from "./Bio";
 import Projects from "./Projects";
 import Contact from "./Contact";
 import Links from "./Links";
-import Footer from "./Footer";
+// import Footer from "./Footer";
 import './application.css'
 
 
@@ -13,9 +13,9 @@ export default function Application() {
     return (
         <>
             {/* <header>
-                <Navbar/>
             </header> */}
             <div className="container">
+                    <Navbar/>
                 <div className="landing">
                     <Landing/>
                 </div>
